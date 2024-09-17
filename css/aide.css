@@ -17,4 +17,114 @@
 .liste-couleur li:nth-child(4) div { background-color: #d1d9e0; }
 .liste-couleur li:nth-child(5) div { background-color: #f6f8fa; }
 .liste-couleur li:nth-child(6) div { background-color: #fd8c73; }
+p{
+    color:  #72777a;
+    font-size: 14px;
+}
+.container1{
+display: flex;
+flex-direction: column;
+margin-bottom:15px;
+border: solid 1px  #d1d9e0 ;
+border-radius: 10px;
 
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px  #d1d9e0 ;
+    padding: 6px;
+    transition: all ease-in-out 0.3s;
+}
+
+.part1,.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #040406;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+border: solid 1px  #59636e ;
+    border-radius: 10px;
+}
+
+.redam{
+    border-bottom:  1px  solid;
+    padding-block: 15px;
+    padding-left:15px ;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px ;
+}
+.items p{
+    font-size: 14px;
+    opacity: 0.8;
+    color:d1d9e0 ;
+    margin-top: -19px;
+}
+.larger{
+   width: 50px;
+   height: 50px;
+}
+h2{
+    font-size: 2em;
+}
+button{
+    margin-top: 25px;
+    color: aliceblue;
+    font-weight: 600;
+    background-color:rgb(15, 158, 15) ;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    transition: all ease-in-out .3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(17, 180, 17);
+}
+.top{
+    height: 100%;
+    border-bottom: #fd8c73 solid 3px;
+    padding-bottom: 14px;
+}
+.item:nth-of-type(1) {
+    background-color:#d1d9e0 ;
+  }
+  .item:hover{
+    background-color: #d1d9e0;
+  }
+  a{
+    color: #7a7e82 ;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+  }
+  a:hover{
+    color:  #0969da;
+    text-decoration: underline;
+  }
+  .commit{
+    padding: 10px;
+    border-radius: 9px;
+    transition: all ease-in-out 0.2s;
+  }
+  .commit:hover{
+    background-color:#b0b4b9 ;
+  }
+  .name,.teste{
+    color: #000;
+  }
